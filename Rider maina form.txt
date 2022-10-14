@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<form>
+<h2> Rider Mania-Registration</h2>
+<style>
+  h2{
+    background-color: aliceblue;
+  }
+</style>
+<img src="https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/rider-mania-2022/banner/rider_mania-2022.jpg"><br><br>
+<p>We are back!
+  Rider Mania is an annual motorcycling festival where Royal Enfield owners and motorcycling enthusiasts from all over the world convene in Goa. Riders or non-riders, people from all walks of life come together at Rider Mania to spend a weekend filled with motorcycling events, music and ambience that is unparalleled. </p>
+<h2>Registration</h2>
+<h3>Enter your personal details to register.</h3><br>
+ <h3>registering as?</h3>
+ Single
+ <input type="radio">
+Group
+<input type="radio">
+<h3>Personal Information</h3>
+<label>First Name:-</label>
+<input type="text" name="First Name">
+<label> Second Name:-</label>
+<input type="text" name="Second name"><br><br>
+<label>Email:-</label>
+<input type="text" name="Email">
+<label>Password:-</label>
+<input type="Password" id="Password"><br><br>
+<label>PH NO:-</label>
+<input type="Number" id="+91">
+<label>Gender:-</label>
+<select>
+  <option>Select</option>
+  <option>Male</option>
+  <option>Female</option>
+  <option>Others</option>
+  
+</select><br><br>
+<label>Date of Birth</label>
+<input type="Date">
+<button type="Submit" name="btn">Submit</button>
+<label>Country:-</label>
+<select>
+  <option>Select</option>
+  <option>India</option>
+  <option>UK</option>
+  <option>USA</option>
+  <option>Japan</option>
+  <option>China</option>
+  <option>Newsland</option>
+  <option>Australia</option>
+  <option>South africa</option>
+  <option>England</option>
+  <option>West Indies</option>
+</select><br><br>
+<label>State</label>
+<select>
+  <option>Select</option>
+  <option>Andhar Pradesh</option>
+  <option>Telagana</option>
+  <option>Tamilnadu</option>
+  <option>Kerala</option>
+  <option>Karnataka</option>
+  <option>Harayana</option>
+  <option>UP</option>
+  <option>Dehli</option>
+  <option>Mumbai</option>
+  <option>Pune</option>
+  <option>Maharastra</option>
+</select>
+<label>City</label>
+<select>
+  <option>Select</option>
+  <option>Vijayawada</option>
+  <option>Hyderabad</option>
+  <option>Vishakapatnam</option>
+  <option>Chennai</option>
+  <option>Bangalure</option>
+  </select><br><br>
+<label>Address1</label>
+<textarea cols="50" rows="5"></textarea><br><br>
+<label>Pincode:-</label>
+<input type="Number" id="password">
+<label>T-shirt</label>
+<select>
+  <option>Select</option>
+  <option>S</option>
+  <option>M</option>
+  <option>L</option>
+  <option>XL</option>
+  <option>XXL</option>
+  <option>XXXL</option>
+  </select><br><br>
+  <label>Club Information</label>
+  <textarea cols="50" rows="2"></textarea>
+  <h3>Are you goning to Goa on a Royal Enfield Motorcycle? </h3>
+  Yes
+  <input type="radio">
+  No 
+  <input type="radio"><br><br>
+<strong>Note:</strong>
+<P>1.You can either opt for single registration or for group registration. Each registered member will be allocated a unique Rider Mania ID, which will act as the confirmation of your registration to the festival.<br><br>
+
+  2.In the case of group registrations, filling the details of all the members in the group is mandatory, which includes name, city, phone numbers and exact T-Shirt sizing. However, a common address for all the members within the group is acceptable. Upto 20 people can be registered together at one go.<br><br>
+  
+  3.Please note, no welcome kit will be provided to participants who register after 31st Oct 2022.</P><br><br>
+  <strong>Disclaimer:</strong>
+  <p>By signing this form/checking this box, you acknowledge and agree that we may use the information you share with us, to communicate with you through emails, text messages and calls, in order to provide our product or service related information and/or for promotional and marketing purposes. All information provided will be secured and processed as per our privacy policy.</p>
+  <input type="Checkbox">
+  I accept the terms and conditions as well as privacy policy.<br><br>
+  <input type="button" value="Register">
+</form>
+</body>
+</html>
